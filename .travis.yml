@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: BLmVkcEjsIdNGnQYt8gqPWqkEjvu7Yj+BqmLWMb4p5kbJKu5/0Zu/BN5MhZRGVHsctdHdXTLubMDb+1E0/vJhreRlm7Yh9cOIiRblZul7bzMaCiAqknJ3cFdS95Aubi4w28tAwn4tgqybEtjjjJVf4UrFMUihfiq9IxWRZvH73Lec7y6JVAEAmkoZ0HHCYAICPSxQuBtWDrLAevi1Y6P9SW5ZdK8KBpOEB05+6gCmoyTUVGREESk/cLEjJRz1aJ6AmpJpcGOSLope3zDun3WbmJr3IvZduxKbD6xnuDvCUnRVrZUvQiRADWKV5MKTYn8+0TCWrecXak2+vYhL07rK7hquUZeC1uz+p7L3EzVxr+4OhGJJJquvuoCr5dbHncKIs/M41JEeOZXeWGQsYSOSibkNKsZ6QPXXxDDijczxgFJ1dSD4MCIvZxkwwtNGo1tu7nYzg70+8NCvr5NjdTqNvqxCAEKArB2odzPpHrc/dqtJgcAK3u8FYq7SBlfQsO/5YwVMeZb5UobaaNYE3+OuBwfPoB0azNchNS/5Mc3D8lY8gCYYs371rOgVU34MSXDzQfyZ1xXa9HDk4xyI8NvDMZu6Gnlh8i/QBRJXfdMDEacYskBA5QbQOl5HK34FJC67ZTqGYcDdlGGaHNJ6X3JSSyPZBE+8aohkXEZmRprzMM=
+  app: shopping-list-jason
+  on:
+    repo: Thinkful-Ed/node-shopping-list-integration-tests
